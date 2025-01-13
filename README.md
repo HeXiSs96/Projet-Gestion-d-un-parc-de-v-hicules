@@ -16,6 +16,6 @@ Gestion de la disponibilité : Permet de mettre un véhicule en maintenance ou d
 
 Sauvegarde et Chargement des données : Le parc de véhicules peut être sauvegardé dans un fichier et chargé depuis ce même fichier pour une gestion persistante des données.
 
-##Types de véhicules gérés
+## 🚗 Types de véhicules gérés
 Voitures : Chaque voiture est associée à un modèle, une année, un kilométrage et un type de carburant.
 Camions : Chaque camion a des caractéristiques similaires à celles des voitures, avec l'ajout de la capacité de charge.
