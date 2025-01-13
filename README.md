@@ -19,3 +19,11 @@ Sauvegarde et Chargement des données : Le parc de véhicules peut être sauvega
 ## 🚗 Types de véhicules gérés
 Voitures : Chaque voiture est associée à un modèle, une année, un kilométrage et un type de carburant.
 Camions : Chaque camion a des caractéristiques similaires à celles des voitures, avec l'ajout de la capacité de charge.
+
+## 💡 Architecture du projet
+Le projet est structuré autour de la programmation orientée objet (POO). Les classes principales sont :
+
+Vehicule : Classe de base représentant un véhicule avec des attributs communs à tous les véhicules (modèle, année, kilométrage, disponibilité).
+Voiture : Hérite de la classe Vehicule et ajoute la gestion du type de carburant.
+Camion : Hérite également de la classe Vehicule et ajoute la gestion de la capacité de charge.
+ParcAuto : Classe gérant la collection de véhicules, permettant l'ajout, la suppression, la recherche et la gestion de l'état des véhicules.
