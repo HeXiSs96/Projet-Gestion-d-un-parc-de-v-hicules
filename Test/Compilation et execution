@@ -1,0 +1,14 @@
+g++ -o VehiculeTest VehiculeTest.cpp Vehicule.cpp -std=c++11
+./VehiculeTest
+
+g++ -o VoitureTest VoitureTest.cpp Voiture.cpp Vehicule.cpp -std=c++11
+./VoitureTest
+
+g++ -o CamionTest CamionTest.cpp Camion.cpp Vehicule.cpp -std=c++11
+./CamionTest
+
+g++ -o ParcAutoTest ParcAutoTest.cpp ParcAuto.cpp Voiture.cpp Camion.cpp Vehicule.cpp -std=c++11
+./ParcAutoTest
+
+g++ -o projet main.cpp Vehicule.cpp Voiture.cpp Camion.cpp ParcAuto.cpp -std=c++17 -Wall
+./projet
