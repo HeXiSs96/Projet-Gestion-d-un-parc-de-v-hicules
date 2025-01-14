@@ -7,19 +7,19 @@
 
  - 1.Ajout de véhicules au parc :
    
-      - Appel de ajouterVehicule pour ajouter une instance de Voiture et une instance de Camion.
+      - Appel de ajouterVehicule() pour ajouter une instance de Voiture et une instance de Camion.
         
  - 2.Affichage des véhicules :
    
-      - Appel de afficherParc pour vérifier que les informations des véhicules ajoutés sont correctement affichées.
+      - Appel de afficherParc() pour vérifier que les informations des véhicules ajoutés sont correctement affichées.
         
   - 3.Recherche de véhicules :
     
-      - Appel de rechercherVehiculeParModele pour vérifier qu'un véhicule peut être retrouvé par son modèle.
+      - Appel de rechercherVehiculeParModele() pour vérifier qu'un véhicule peut être retrouvé par son modèle.
         
   - 4.Comptage des véhicules disponibles :
     
-      - Appel de vehiculeDisponible pour s'assurer que le nombre de véhicules disponibles est correctement calculé.
+      - Appel de vehiculeDisponible() pour s'assurer que le nombre de véhicules disponibles est correctement calculé.
         
 ## 2. CamionTest.cpp
 Rôle :
