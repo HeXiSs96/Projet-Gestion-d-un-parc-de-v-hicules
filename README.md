@@ -30,5 +30,5 @@ Le projet est structuré autour de la programmation orientée objet (POO). Les c
 
 ## Compilation et execution du projet
 
-g++ -o projet main.cpp Vehicule.cpp Voiture.cpp Camion.cpp ParcAuto.cpp -std=c++17 -Wall
-./projet
+- g++ -o projet main.cpp Vehicule.cpp Voiture.cpp Camion.cpp ParcAuto.cpp -std=c++17 -Wall
+- ./projet
