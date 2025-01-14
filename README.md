@@ -27,3 +27,8 @@ Le projet est structuré autour de la programmation orientée objet (POO). Les c
 - Voiture : Hérite de la classe Vehicule et ajoute la gestion du type de carburant.
 - Camion : Hérite également de la classe Vehicule et ajoute la gestion de la capacité de charge.
 - ParcAuto : Classe gérant la collection de véhicules, permettant l'ajout, la suppression, la recherche et la gestion de l'état des véhicules.
+
+## Compilation et execution du projet
+
+g++ -o projet main.cpp Vehicule.cpp Voiture.cpp Camion.cpp ParcAuto.cpp -std=c++17 -Wall
+./projet
