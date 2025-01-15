@@ -47,8 +47,8 @@ Le projet est structuré autour de la programmation orientée objet (POO). Les c
 #### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/HeXiSs96/Projet-Gestion-d-un-parc-de-v-hicules.git
-cd Projet-Gestion-d-un-parc-de-v-hicules
+git clone https://github.com/HeXiSs96/Projet-Gestion-d-un-parc-de-vehicules.git
+cd Projet-Gestion-d-un-parc-de-vehicules
 ```
 ## Compilation et execution du projet
 ```bash
