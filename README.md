@@ -52,6 +52,6 @@ cd Projet-Gestion-d-un-parc-de-vehicules
 ```
 ## Compilation et execution du projet
 ```bash
-- g++ -o projet main.cpp Vehicule.cpp Voiture.cpp Camion.cpp ParcAuto.cpp -std=c++17 -Wall
-- ./projet
+g++ -o projet main.cpp Vehicule.cpp Voiture.cpp Camion.cpp ParcAuto.cpp -std=c++17 -Wall
+./projet
 ```
