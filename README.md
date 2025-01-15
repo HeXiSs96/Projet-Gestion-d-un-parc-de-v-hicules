@@ -30,8 +30,28 @@ Le projet est structuré autour de la programmation orientée objet (POO). Les c
 
   ![image](https://github.com/user-attachments/assets/95de8e48-2cb3-47f5-9510-08cf019b4ef2)
 
+## 🛠 Technologies utilisées
 
+- **Langage** : C++
+- **Environnement de développement** : WSL Ubuntu
+- **Compilateur** : g++
+
+## 📦 Installation et utilisation
+
+### Prérequis
+
+- C++17 ou plus récent
+
+### Instructions
+
+#### 1. Cloner le projet
+
+```bash
+git clone https://github.com/Angy-prt/Projet-Gestion-d-un-systeme-bancaire-A2
+cd Projet-Gestion-d-un-systeme-bancaire-A2
+```
 ## Compilation et execution du projet
-
+```bash
 - g++ -o projet main.cpp Vehicule.cpp Voiture.cpp Camion.cpp ParcAuto.cpp -std=c++17 -Wall
 - ./projet
+```
