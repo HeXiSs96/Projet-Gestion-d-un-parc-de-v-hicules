@@ -34,9 +34,9 @@
      
 - Modification de la capacité de charge :
   
-    - Appel de setCapaciteCharge pour changer la capacité de charge du camion.
+     - Appel de setCapaciteCharge pour changer la capacité de charge du camion.
     
-    - Vérifie avec un nouvel appel à afficherInfo que la modification est prise en compte.
+     - Vérifie avec un nouvel appel à afficherInfo que la modification est prise en compte.
       
 ## 3. VehiculeTest.cpp
 ### Rôle :
@@ -46,12 +46,12 @@
 ### Ce qu'il teste :
 
 - Création et affichage d'un véhicule :
-- 
+  
     - Vérifie que les attributs (modèle, année, kilométrage, disponibilité) d'un véhicule sont correctement initialisés et affichés via afficherInfo.
       
 - Modification des attributs :
-- 
-    - Appel des méthodes setModele, setAnnee, setKilometrage, et setDisponible pour modifier les propriétés du véhicule.
+  
+     - Appel des méthodes setModele, setAnnee, setKilometrage, et setDisponible pour modifier les propriétés du véhicule.
     - 
      - Vérifie que les modifications sont correctement appliquées via un nouvel appel à afficherInfo.
        
