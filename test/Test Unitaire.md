@@ -52,7 +52,7 @@
 - Modification des attributs :
   
      - Appel des méthodes setModele, setAnnee, setKilometrage, et setDisponible pour modifier les propriétés du véhicule.
-    - 
+      
      - Vérifie que les modifications sont correctement appliquées via un nouvel appel à afficherInfo.
        
 ## 4. VoitureTest.cpp
